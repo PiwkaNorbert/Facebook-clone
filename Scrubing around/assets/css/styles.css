@@ -1,0 +1,248 @@
+
+:root{
+    --blue: #1877F2;
+    --bg-color: #F0F2F5;
+    --link-color: #8a8d91;
+    --spacer: #e7e7e7;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+html{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    padding: 0px;
+    margin: auto;
+    
+}
+#main-page{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--bg-color);
+}
+
+/* ----------------LEFT PANEL--------------- */
+
+#login-screen-main-page{
+    display: flex;
+    padding: 120px 0px 200px;
+    margin: 0px auto;
+    width: 980px;
+
+}
+.fb-img > img{
+    width: 305px;
+    margin-left: -20px;
+    padding-top: 40px;
+}
+.left-panel > div > h2{
+
+    font-weight: lighter;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+/* ----------------RIGHT PANEL--------------- */
+.right-panel{
+    position: relative;
+    display: inline-block;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.1),
+                0px 8px 16px 1px rgba(0, 0, 0, 0.1);
+    margin: 0px auto;
+    background-color: #fff;
+    max-width: 405px;
+}
+.login-input-white-style{
+    margin: 20px 20px 0px 20px;
+    border: 1px solid var(--spacer);
+    width: 364px;
+
+}
+.login-input-white{
+    border: none;
+    display: inline-block;
+    outline-color : var(--blue) !important;
+    outline-width: 1px;
+    line-height: 20px;
+    padding: 14px 12px;
+    text-align: left;
+    font-size: 17px;
+    width: 340px;
+    cursor: text;
+    
+}
+.login-input-blue{
+    padding: 10px 100px;
+    margin: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: var(--blue);
+    border: none;
+    cursor: pointer;
+
+}
+.login-input-green{
+    display: inline-block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    line-height: 10px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    border: 0px;
+    background-color: #42b72a;
+    cursor: pointer;
+    width: 23vh;
+
+}
+.C-a-P{
+    text-align: center;
+    padding-top: 30px ;
+}
+h1{
+    color: var(--blue);
+    font-weight: 800;
+    font-size: 4em;
+    font-family:  "Open Sans", sans-serif;
+}
+
+/* ------------------- Footer ----------------- */
+.footer{
+    background-color: #fff;
+}
+#footer-main-page{
+    margin: auto;
+    padding: 20px;
+    width: 980px;
+}
+.footer-upper-list,
+.footer-lower-list{
+    list-style-type: none;
+    /* width: 980px; */
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.footer-upper-list li,
+.footer-lower-list li{
+    padding-left: 10px;
+    display: inline-block;
+}
+.creator{
+    color: #727272;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+/* -------------------Spacers------------------- */
+
+
+
+.login-spacer{
+    border-bottom: 1px solid var(--spacer);
+    margin: 0px 20px 0px 20px;
+}
+.footer-spacer{
+    border-bottom: 1px solid var(--spacer);
+    margin: 0px 0px 0px 10px;
+}
+
+
+/* -------------------Links-------------------- */
+.login-form,
+.login-input-white,
+.login-input-white-style,
+.login-input-blue,
+.login-input-green{
+    border-radius: 8px;
+}
+.login-form a:link,
+.login-form a:visited,
+.login-form a:focus{
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.login-form a:hover{
+    text-decoration: underline;
+}
+
+.C-a-P a:link,
+.C-a-P a:visited,
+.C-a-P a:focus{
+    color: var(--black);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.C-a-P a:hover{
+    text-decoration: underline;
+}
+
+.footer-upper a:link,
+.footer-upper a:visited,
+.footer-upper a:focus,
+.footer-lower a:link,
+.footer-lower a:visited,
+.footer-lower a:focus
+ {
+    color: var(--link-color);
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+.footer-upper a:hover,
+.footer-lower a:hover{
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------FORGOTTEN PASSWORD---------------------------------------------------- */
+
+
+/* ---------------- FORGOTTEN HEADER PANEL--------------- */
+.header-form{
+background-color: #fff;
+min-height: 2vh;
+display: flex;
+flex-direction: wrap;
+align-items: center;
+}
+#login-screen-main-page{
+    display: flex;
+    padding: 120px 0px 200px;
+    margin: 0px auto;
+    width: 980px;
+}
+.fb-img-FOR > img{
+    width: 150px;
+    padding: 10px;
+}
+
+/* ---------------- FORGOTTEN FOOTER PANEL--------------- */
+.footer{
+    background-color: #fff;
+}
+#footer-main-page-for{
+    margin: auto;
+    padding: 160px 20px 160px;
+    width: 980px;
+
+
